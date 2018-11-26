@@ -3,8 +3,6 @@ class Hash
     map {|key, value| 
     if arguments.include?(value)
       key
-    else 
-      return nil
     end
     }.compact
   end
