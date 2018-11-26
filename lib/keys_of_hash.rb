@@ -4,6 +4,6 @@ class Hash
     if arguments.include?(value)
       key
     end
-    }.compact
+    }.compact #compact returns array and removes all nil
   end
 end
